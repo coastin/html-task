@@ -1,0 +1,174 @@
+body{
+	background-color: #eeeeed;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.header{
+	background-color: #eeeeed;
+	min-height: 70px;
+	border-bottom: 1px solid #e7e7e2;
+}
+.callus{
+	margin-top: 30px;
+}
+.imglogo{
+	margin-top: 20px;
+}
+.infblock{
+	margin-bottom: 25px;
+	background-color: #eeeeed;
+}
+.infimage{
+	margin-top: 25px;
+	background-image: url("image.png");
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.inftext h3{
+	font-family: CharisSilBold;
+}
+.inftext p{
+	font-family: LucidaSansRegular;
+}
+.inftext li{
+	margin-left: -30px;
+	font-family: LucidaSansRegular;
+}
+.inftext button{
+	color: #62889a;
+	background-color: #9ebfcf;
+	border: 0;
+	line-height: 35px;
+	width: 120px;
+	margin-top: 20px;
+}
+.sliderblock{
+	background-color: #c9dce6;
+	border-top: 1px solid #818d94;
+	border-bottom: 1px solid #818d94;
+}
+.owl-prev{
+	display: none;
+}
+.owl-next{
+	display: none;
+}
+.contentblock{
+	min-height: 650px;
+	background-color: #d7e7ef;
+}
+.contentblock h3{
+	color: #7da0b3;
+	margin-top: 65px;
+	margin-bottom: 75px;
+	font-family: CharisSilItalic;
+}
+.contentblock h4{
+	color: #7da0b3;
+	font-family: CharisSilBold;
+}
+.contentblock p{
+	font-family: LucidaSansRegular;
+}
+.commentblock{
+	margin-top: 45px;
+}
+.commentblock p{
+	font-family: CharisSilItalic;
+	font-size: 1.15em;
+}
+.commentblock h4{
+	color: #456474;
+	font-family: CharisSilBold;
+}
+.quo{
+	font-size: 4.5em;
+	float: left;
+	margin-top: -20px;
+	padding-right: 5px;
+}
+.commentby{
+	font-weight: bold;
+	margin-left: 25px;
+	font-family: LucidaSansRegular;
+}
+@media (min-width: 768px) {
+  .commentblock {
+  	background-color: #c9dce6;
+  }
+}
+
+.infimage{
+	margin-top: 25px;
+	background-image: url(image.png);
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.infimage{
+	min-height: 200px;
+}
+}
+input[type="email"] {
+  border: 1px solid #ddd;
+  padding: 5px 8px;
+}
+input[type="submit"] {
+  font-weight: bold;
+  border: 0;
+  padding: 5px 8px;
+  margin-left: -4px;
+  background: #9fc0d0;
+  color:#81a0af;
+}
+.contactblock{
+	margin-top: 45px;
+		font-family: LucidaSansRegular;
+}
+.contact{
+	margin-top: 15px;
+}
+.footer{
+	min-height: 50px;
+	background-color: #c9dce6;
+	padding-top: 15px;
+	font-family: LucidaSansRegular;
+}
+.footer img{
+	margin-left: 5px;
+}
+@font-face{
+	font-family: CharisSilItalic;
+	src: url(fonts/CharisSILI.ttf);
+}
+@font-face{
+	font-family: MyriadPro;
+	src: url(fonts/Myriad Pro Bold SemiExtended.ttf);
+}
+.callus{
+	font-family: MyriadPro;
+}
+@font-face{
+	font-family: CharisSilBold;
+	src: url(fonts/CharisSILB.ttf);
+}
+@font-face{
+	font-family: LucidaSansRegular;
+	src: url(fonts/LucidaSansRegular.ttf);
+}
+@font-face{
+	font-family: CharisSilRegular;
+	src: url(fonts/CharisSILR.ttf);
+}
+button{
+	font-family: CharisSilRegular;
+}
